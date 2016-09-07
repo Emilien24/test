@@ -11,11 +11,14 @@ package testjavagithub;
  */
 public class TestJavaGithub {
 
+        public static String direbonjour(){
+            return "Hello";
+        }
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("TOTO");
+        System.out.println(direbonjour()+"TOTO");
     }
     
 }
